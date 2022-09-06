@@ -1,0 +1,38 @@
+.header {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 94px;
+    border: 1px solid black;
+
+    &__nav {
+        display: inherit;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+
+    &-menu__popup {
+        flex-grow: 1;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__join {
+        padding: 10px 30px;
+        border-radius: 25px;
+
+        color: white;
+        background-color: $choose-button-select;
+
+        font-size: 14px;
+        font-weight: 500;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

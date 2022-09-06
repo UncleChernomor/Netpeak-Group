@@ -1,0 +1,21 @@
+@import './varaiblles';
+@import './elements/header';
+@import './elements/promo';
+
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #F5F5FA 0%, #F2DAD5 44.15%, #A1ABD6 100%);
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 937px;
+    border: 1px solid black;
+}

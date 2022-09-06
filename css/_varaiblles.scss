@@ -1,0 +1,14 @@
+$choose-button: #231D4F;
+$choose-button-select: #BB6BD9;
+$choose-button-hover: #A847CC;
+
+$background-white: #F5F5FA;
+$background-active: #231D4F;
+
+@mixin button-toggle {
+    flex-grow: 1;
+    border-radius: inherit;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    // border: 1px solid green;
+}
