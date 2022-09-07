@@ -1,9 +1,18 @@
+@import './card';
+
 .proupose {
-    display: flex;
-    justify-content: space-between;
+    padding-top: 65px;
 
-    border-radius: 26px;
+    &-cards {
+        position: relative;
+        padding: 0px 19px 20px 19px;
+        display: flex;
+        justify-content: space-between;
 
-    background: rgba(255, 255, 255, 0.64);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 26px;
+
+        background: rgba(255, 255, 255, 0.64);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
 }

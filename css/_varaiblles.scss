@@ -5,10 +5,17 @@ $choose-button-hover: #A847CC;
 $background-white: #F5F5FA;
 $background-active: #231D4F;
 
+$card-width: 232px;
+$card-width-active: 292px;
+$card-height: 353px;
+$card-height-active: 393px;
+
+$choose-button-width: 232px;
+
 @mixin button-toggle {
     flex-grow: 1;
     border-radius: inherit;
     padding-top: 13px;
     padding-bottom: 13px;
-    // border: 1px solid green;
+    transition: all 0.4s;
 }

@@ -5,7 +5,6 @@
     justify-content: space-between;
     align-items: center;
     height: 94px;
-    border: 1px solid black;
 
     &__nav {
         display: inherit;
@@ -33,6 +32,7 @@
 
         &:hover {
             cursor: pointer;
+            background-color: $choose-button-hover;
         }
     }
 }
