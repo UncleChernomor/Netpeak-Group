@@ -13,6 +13,7 @@
 </head>
 
 <body class="body">
+    <!-- Header -->
     <header class="header">
         <div class="header-menu__popup">
             <svg width="23" height="15" viewBox="0 0 23 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,7 +27,9 @@
             <div class="header__join">Join Now</div>
         </nav>
     </header>
+    <!-- Main -->
     <main class="wrapper">
+        <!-- Promo -->
         <section class="promo">
             <h1>Plans & Pricing</h1>
             <div class="promo-body">
@@ -36,12 +39,13 @@
                 </p>
                 <div>
                     <div class="promo__switch">
-                        <div class="promo__switch--on">MONTHLY</div>
-                        <div class="promo__switch--off">YEARLY</div>
+                        <div id='month' class="promo__switch--on">MONTHLY</div>
+                        <div id='year' class="promo__switch--off">YEARLY</div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Proupose -->
         <section class="proupose">
             <h1 hidden>Price</h1>
             <div class="proupose-cards">
@@ -115,7 +119,7 @@
             </div>
         </section>
     </main>
-    <script src="js/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

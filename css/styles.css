@@ -162,6 +162,8 @@ ul li:before {
   padding: 40px 30px 0px 30px;
   width: 232px;
   min-height: 353px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .card__content {
@@ -238,6 +240,8 @@ ul li:before {
   font-size: 15px;
   color: white;
   background-color: #231D4F;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .card__button:hover {
@@ -286,6 +290,5 @@ body {
 .wrapper {
   margin: 0 auto;
   width: 937px;
-  border: 1px solid black;
 }
 /*# sourceMappingURL=styles.css.map */

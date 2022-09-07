@@ -29,6 +29,8 @@ ul li:before {
     width: $card-width;
     min-height: $card-height;
 
+    transition: all 0.4s;
+
     &__content {
         flex-grow: 1;
     }
@@ -105,6 +107,8 @@ ul li:before {
 
         color: white;
         background-color: $choose-button;
+
+        transition: all 0.4s;
 
         &:hover {
             cursor: pointer;
