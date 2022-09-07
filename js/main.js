@@ -24,14 +24,19 @@ const changeViewToggle = (onElement, offElement) => {
 }
 
 const setPrice = () => {
+    const current = tarrif[typeToggle];
 
-}
+    for (let key in current) {
+        document.getElementById(key).innerText = current[key];
+    }
+};
 
 monthElement.addEventListener('click', (e) => {
     if (typeToggle === 0) return;
 
     changeViewToggle(e.currentTarget, yearElement);
     typeToggle = 0;
+    setPrice();
 });
 
 yearElement.addEventListener('click', (e) => {
@@ -39,4 +44,5 @@ yearElement.addEventListener('click', (e) => {
 
     changeViewToggle(e.currentTarget, monthElement);
     typeToggle = 1;
+    setPrice();
 });
