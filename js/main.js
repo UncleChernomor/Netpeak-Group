@@ -5,7 +5,14 @@ const monthElement = document.getElementById('month');
 const yearElement = document.getElementById('year');
 const tarrif = {
     0: {
-
+        'starter': 19,
+        'professional': 54,
+        'company': 89,
+    },
+    1: {
+        'starter': 12,
+        'professional': 36,
+        'company': 56,
     },
 }
 
