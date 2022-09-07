@@ -2,9 +2,26 @@
     "path": {
         "src": {
             "srcPath": "./src",
+            "components": "/_components",
+            "html": [
+                "/**/*.html"
+            ],
+            "style": [
+                "/assets/css/styles.scss"
+            ],
+            "script": [
+                "/assets/js/main.js"
+            ],
+            "image": [
+                "/assets/img/**/*.*"
+            ]
         },
         "dist": {
-            "distPath": "./dist"
+            "distPath": "./dist",
+            "html": "/",
+            "style": "/css/",
+            "script": "/js/",
+            "image": "/img/"
         }
     }
 }
