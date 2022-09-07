@@ -10,6 +10,10 @@
         display: inherit;
         justify-content: space-between;
         flex-grow: 1;
+
+        @media (max-width: 767px) {
+            justify-content: flex-end;
+        }
     }
 
     &-menu__popup {
@@ -33,6 +37,10 @@
         &:hover {
             cursor: pointer;
             background-color: $choose-button-hover;
+        }
+
+        @media (max-width: 767px) {
+            display: none;
         }
     }
 }

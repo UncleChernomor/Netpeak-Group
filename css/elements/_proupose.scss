@@ -6,6 +6,7 @@
     &-cards {
         position: relative;
         padding: 0px 19px 20px 19px;
+        margin-bottom: 69px;
         display: flex;
         justify-content: space-between;
 
@@ -14,5 +15,22 @@
         background: rgba(255, 255, 255, 0.64);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
+}
 
+@media (max-width: 1020px) {
+    .proupose {
+        padding-top: 32px;
+
+        &-cards {
+            padding: 32px 8px 8px 8px;
+            margin-bottom: 64px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            background: rgba(255, 255, 255, 0.64);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+    }
 }
