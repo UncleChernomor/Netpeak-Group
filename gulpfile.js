@@ -13,10 +13,6 @@ const webpackStream = require('webpack-stream');
 const webpack = require('webpack');
 const plumber = require('gulp-plumber');
 const uglify = require('gulp-uglify');
-// const newer = require('gulp-newer');
-//const imagemin = require('gulp-imagemin');
-// const imageminJpegRecompress = require('imagemin-jpeg-recompress');
-// const pngquant = require('imagemin-pngquant');
 
 const isDev = function () {
     return !argv.prod;
